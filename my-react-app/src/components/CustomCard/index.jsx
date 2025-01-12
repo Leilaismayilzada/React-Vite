@@ -15,9 +15,7 @@ const CustomCard = () => {
     });
   }, []);
 
-
   const totalPages = Math.ceil(articles.length / articlesPerPage);
-
 
   const currentArticles = articles.slice(
     (currentPage - 1) * articlesPerPage,
@@ -44,7 +42,8 @@ const CustomCard = () => {
                     alt={item.author}
                   />
                   <div className="CustomAuthorDetails">
-                    <span className="CustomAuthorName">{item.author}</span> <br />
+                    <span className="CustomAuthorName">{item.author}</span>{" "}
+                    <br />
                     <span className="CustomAuthorMeta">
                       {item.date} • {item.readTime}
                     </span>
@@ -59,7 +58,7 @@ const CustomCard = () => {
       </div>
       <div className="Pagination">
         <button
-        className="PaginationPrev"
+          className="PaginationPrev"
           onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
           disabled={currentPage === 1}
         >
@@ -69,8 +68,10 @@ const CustomCard = () => {
           Page {currentPage} of {totalPages}
         </span>
         <button
-         className="PaginationNext"
-          onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
+          className="PaginationNext"
+          onClick={() =>
+            setCurrentPage((prev) => Math.min(prev + 1, totalPages))
+          }
           disabled={currentPage === totalPages}
         >
           Next
