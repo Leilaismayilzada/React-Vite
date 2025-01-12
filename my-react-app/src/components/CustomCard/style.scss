@@ -1,0 +1,240 @@
+.CustomArticleContainer {
+  padding: 40px 20px;
+  background-color: #f8f9fc;
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .CustomArticleCard {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .CustomArticleContent {
+      padding: 20px;
+
+      .CustomCategory {
+        font-size: 12px;
+        background-color: #edf2f7;
+        color: #4a5568;
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      .CustomTitle {
+        font-size: 20px;
+        font-weight: bold;
+        color: #2d3748;
+        margin: 10px 0;
+        line-height: 1.5;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: #3182ce;
+        }
+      }
+
+      .CustomDescription {
+        font-size: 14px;
+        color: #4a5568;
+        margin-bottom: 20px;
+        line-height: 1.6;
+      }
+
+      .CustomAuthorInfo {
+        display: flex;
+        align-items: center;
+
+        .CustomAuthorImage {
+          width: 48px;
+          height: 48px;
+          border-radius: 50%;
+          margin-right: 10px;
+        }
+
+        .CustomAuthorDetails {
+          .CustomAuthorName {
+            font-size: 14px;
+            font-weight: 600;
+            color: #2d3748;
+          }
+
+          .CustomAuthorMeta {
+            font-size: 12px;
+            color: #718096;
+          }
+        }
+      }
+    }
+  }
+
+  .Pagination {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 300px;
+    padding: 6px;
+    text-align: center;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .PaginationPrev {
+      background-color: #4a5568;
+      color: #edf2f7;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 19px;
+    }
+
+    .PaginationNext {
+      background-color: #85a3d7;
+      color: #edf2f7;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 19px;
+    }
+
+    span {
+      font-size: 14px;
+      color: #4a5568;
+    }
+  }
+
+  .CustomNoArticles {
+    font-size: 16px;
+    color: #718096;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.CustomArticleContainerTop {
+  margin-left: 60px;
+}
+
+@media (max-width: 768px) {
+  .CustomArticleContainer {
+    padding: 20px 10px;
+
+    .container {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .CustomArticleCard {
+      .CustomArticleContent {
+        padding: 15px;
+
+        .CustomTitle {
+          font-size: 18px;
+        }
+
+        .CustomDescription {
+          font-size: 13px;
+        }
+
+        .CustomAuthorInfo {
+          .CustomAuthorImage {
+            width: 40px;
+            height: 40px;
+          }
+
+          .CustomAuthorDetails {
+            .CustomAuthorName {
+              font-size: 13px;
+            }
+
+            .CustomAuthorMeta {
+              font-size: 11px;
+            }
+          }
+        }
+      }
+    }
+
+    .Pagination {
+      width: 250px;
+
+      .PaginationPrev,
+      .PaginationNext {
+        padding: 5px;
+      }
+
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .CustomArticleContainer {
+    padding: 10px;
+
+    .container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .CustomArticleCard {
+      .CustomArticleContent {
+        padding: 10px;
+
+        .CustomTitle {
+          font-size: 16px;
+        }
+
+        .CustomDescription {
+          font-size: 12px;
+        }
+
+        .CustomAuthorInfo {
+          .CustomAuthorImage {
+            width: 36px;
+            height: 36px;
+          }
+
+          .CustomAuthorDetails {
+            .CustomAuthorName {
+              font-size: 12px;
+            }
+
+            .CustomAuthorMeta {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    .Pagination {
+      width: 200px;
+
+      .PaginationPrev,
+      .PaginationNext {
+        padding: 3px;
+      }
+
+      span {
+        font-size: 10px;
+      }
+    }
+  }
+}

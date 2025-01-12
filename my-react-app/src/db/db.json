@@ -1,0 +1,228 @@
+{
+  "Leftside": [
+    {
+      "id": 1,
+      "title": "Make A Drink And We'll Tell You Where You'll Meet Your Soulmate",
+      "name": "John Doe",
+      "date": "March 20,2020",
+      "time": "1min"
+    },
+    {
+      "id": 2,
+      "title": "Long-Lasting Fashion Items That Are Worth The Investment",
+      "name": "Sarah Doe",
+      "date": "March 19, 2020",
+      "time": "1min"
+    },
+    {
+      "id": 3,
+      "title": "20 Creative Pasta Recipes You'll Probably Want To Whip Up ASAP",
+      "name": "Sarah  Doe",
+      "date": "March 11, 2020",
+      "time": "1min"
+    },
+    {
+      "id": 4,
+      "title": "I Went To Seattle With No Clothes The Empty Suitcase Show",
+      "name": "John  Doe",
+      "date": "January 18, 2020",
+      "time": "1min"
+    }
+  ],
+  "CardPics": [
+    {
+      "id": 1,
+      "image": "https://flexiblog-minimal.netlify.app/static/29d105c63cec64692957366decc72da1/fc596/image.webp",
+      "category": "Art & Culture",
+      "title": "Texoma Youth Turns Recycled Trash Into Art",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "author": "Jane Smith",
+      "authorImage": "https://flexiblog-minimal.netlify.app/static/41bc1caf29080d62bd156256ffb0cd6a/0f66d/jane-smith.webp",
+      "date": "June 21, 2020",
+      "readTime": "1 min"
+    },
+    {
+      "id": 2,
+      "image": "https://flexiblog-minimal.netlify.app/static/b8af84cd7806ab9d9a9733f6decf7f2b/fc596/image.webp",
+      "category": "Art & Culture",
+      "title": "21 Clean Jokes That Are So Dumb They're Actually Funny",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "author": "Steve Grant",
+      "authorImage": "https://flexiblog-minimal.netlify.app/static/cc4c6b62392829f5c3658c6842218a69/0f66d/steve-grant.webp",
+      "date": "May 12, 2020",
+      "readTime": "1 min"
+    },
+    {
+      "id": 3,
+      "image": "https://flexiblog-minimal.netlify.app/static/6b93cc53acdd3848c46dc33759ffc0fd/fc596/image.webp",
+      "category": "Food & Drink",
+      "title": "Top 10 Cafes in Los Angeles",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "author": "Sarah Doe",
+      "authorImage": "https://flexiblog-minimal.netlify.app/static/8138313836cfae3b6c5ed951add51e76/0f66d/sarah-doe.webp",
+      "date": "March 25, 2020",
+      "readTime": "1 min"
+    }
+  ],
+  "CustomCard": [
+    {
+      "id": 1,
+      "category": "Fashion & Beauty",
+      "title": "This US States Test Doesn't End Until",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "author": "John Doe",
+      "authorImage": "https://flexiblog-minimal.netlify.app/static/18c810c8f231ac22d5ec2cf2819ed68c/a3542/john-doe.webp",
+      "date": "May 24, 2021",
+      "readTime": "1 min"
+    },
+    {
+      "id": 2,
+      "category": "Fashion & Beauty",
+      "title": "The Right Way to Apply Cream Blush",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "author": "Jane Smith",
+      "authorImage": "https://flexiblog-minimal.netlify.app/static/41bc1caf29080d62bd156256ffb0cd6a/a3542/jane-smith.webp",
+      "date": "May 13, 2021",
+      "readTime": "1 min"
+    },
+    {
+      "id": 3,
+      "category": "Food & Drink",
+      "title": "The Pleasure of Defying Food Fashions",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "author": "John Doe",
+      "authorImage": "https://flexiblog-minimal.netlify.app/static/41bc1caf29080d62bd156256ffb0cd6a/a3542/jane-smith.webp",
+      "date": "June 22, 2020",
+      "readTime": "1 min"
+    },
+    {
+      "id": 4,
+      "category": "Art & Culture",
+      "title": "Texoma Youth Turns Recycled Trash Into Art",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "author": "Jane Smith",
+      "authorImage": "https://flexiblog-minimal.netlify.app/static/41bc1caf29080d62bd156256ffb0cd6a/a3542/jane-smith.webp",
+      "date": "June 21, 2020",
+      "readTime": "1 min"
+    },
+    {
+      "id": 5,
+      "category": "Art & Culture",
+      "title": "Fine Art Exhibition Winners Named",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "author": "Jane Smith",
+      "authorImage": "https://flexiblog-minimal.netlify.app/static/41bc1caf29080d62bd156256ffb0cd6a/a3542/jane-smith.webp",
+      "date": "June 16, 2020",
+      "readTime": "1 min"
+    },
+    {
+      "id": 6,
+      "category": "Fashion & Beauty",
+      "title": "Fashion College Probes Runway Show Criticized",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "author": "Jane Smith",
+      "authorImage": "https://flexiblog-minimal.netlify.app/static/41bc1caf29080d62bd156256ffb0cd6a/a3542/jane-smith.webp",
+      "date": "June 24, 2021",
+      "readTime": "1 min"
+    },
+    {
+      "id": 7,
+      "category": "Food & Drink",
+      "title": "Are You A Pogue Or A Kook From Outer Banks?",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "author": "John Doe",
+      "authorImage": "https://flexiblog-minimal.netlify.app/static/41bc1caf29080d62bd156256ffb0cd6a/a3542/jane-smith.webp",
+      "date": "June 14, 2021",
+      "readTime": "1 min"
+    },
+    {
+      "id": 8,
+      "category": "Art & Culture",
+      "title": "I Had My Mom Try To Describe 17 Disney Movies",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "author": "John Doe",
+      "authorImage": "https://flexiblog-minimal.netlify.app/static/18c810c8f231ac22d5ec2cf2819ed68c/a3542/john-doe.webp",
+      "date": "May 17, 2021",
+      "readTime": "1 min"
+    },
+    {
+      "id": 9,
+      "category": "Art & Culture",
+      "title": "21 Clean Jokes That Are So Dumb They're Actually Funny",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "author": "Steve Grant",
+      "authorImage": "https://flexiblog-minimal.netlify.app/static/cc4c6b62392829f5c3658c6842218a69/a3542/steve-grant.webp",
+      "date": "May 12, 2021",
+      "readTime": "1 min"
+    },
+    {
+      "id": 10,
+      "category": "Food & Drink",
+      "title": "Which Of These People Is Secretly An Artist?",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "date": "May 24, 2021",
+      "readTime": "1 min"
+    },
+    {
+      "id": 11,
+      "category": "Fashion & Beauty",
+      "title": "Top 10 Cafes in Los Angeles",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "author": "Sarah Doe",
+      "authorImage": "https://flexiblog-minimal.netlify.app/static/8138313836cfae3b6c5ed951add51e76/a3542/sarah-doe.webp",
+      "date": "May 25, 2021",
+      "readTime": "1 min"
+    },
+
+    {
+      "id": 12,
+      "category": "Art & Culture",
+      "title": "Make A Drink And We'll Tell You Where You'll Meet Your Soulmate",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "author": "John Doe",
+      "authorImage": "https://flexiblog-minimal.netlify.app/static/18c810c8f231ac22d5ec2cf2819ed68c/a3542/john-doe.webp",
+      "date": "May 20, 2021",
+      "readTime": "1 min"
+    },
+    {
+      "id": 13,
+      "category": "Art & Culture",
+      "title": "Long-Lasting Fashion Items That Are Worth The Investment",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "author": "Sarah Doe",
+      "authorImage": "https://flexiblog-minimal.netlify.app/static/8138313836cfae3b6c5ed951add51e76/a3542/sarah-doe.webp",
+      "date": "May 20, 2021",
+      "readTime": "1 min"
+    },
+    {
+      "id": 14,
+      "category": "Art & Culture",
+      "title": "20 Creative Pasta Recipes You'll Probably Want To Whip Up ASAP",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "author": "Sarah Doe",
+      "authorImage": "https://flexiblog-minimal.netlify.app/static/8138313836cfae3b6c5ed951add51e76/a3542/sarah-doe.webp",
+      "date": "May 20, 2021",
+      "readTime": "1 min"
+    },
+    {
+      "id": 15,
+      "category": "Fashion & Beauty",
+      "title": "I Went To Seattle With No Clothes The Empty Suitcase Show",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "author": "John Doe",
+      "authorImage": "https://flexiblog-minimal.netlify.app/static/18c810c8f231ac22d5ec2cf2819ed68c/a3542/john-doe.webp",
+      "date": "May 20, 2021",
+      "readTime": "1 min"
+    },
+    {
+      "id": 16,
+      "category": "Art & Culture",
+      "title": "35 Natural Beauty Products You Might Just Fall In Love With",
+      "description": "Primo in altis pelle alumnae Lorem markdownum obvius in seque opus, est bicorni forte; laeva…",
+      "author": "Sarah Doe",
+      "authorImage": "https://flexiblog-minimal.netlify.app/static/8138313836cfae3b6c5ed951add51e76/a3542/sarah-doe.webp",
+      "date": "May 20, 2021",
+      "readTime": "1 min"
+    }
+  ]
+}
